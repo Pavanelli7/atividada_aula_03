@@ -1,0 +1,350 @@
+.header{
+    color: #32b9cd;
+    border-bottom: 3px solid #32b9cd;
+    /* border: 3px solid yellow; */
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    font-family: monospace;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 3px solid red; */
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 600px;
+    align-items: center;
+    color: #E3b062;
+    /* border: 3px solid blue; */
+}
+
+.agora{
+    font-weight: 1000;
+}
+
+.banner{
+    height: 500px;
+    background-image: url(imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+}
+
+.bannerlog{
+    height: 600px;
+    background-image: url(imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.bannerlog .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+
+.banner .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+.bannerlog .container p{
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+
+.banner .container p{
+    width: 280px;
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+
+.bannerlog span{
+    font-weight: 1000;
+}
+
+
+.banner span{
+    font-weight: 1000;
+}
+
+li a{
+    text-decoration: none;
+    color: #E3b062;
+}
+
+.form-box{
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+h4{
+    align-self: flex-start;
+    margin: 10px;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
+    font-size: 170%;
+    font-family: fantasy;
+}
+
+#card_p{
+    margin: 0;
+    font-size: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+input{
+    height: 30px;
+    width: 250px;
+    border: solid 2px #32b9cd;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    font-family: monospace;
+    border: 1px;
+    border-radius: 12px;
+    font-weight: 1000;
+    font-size: 18px;
+    padding: 0;
+    color: white;
+    background-color: #e6005a;
+    width: 120px;
+    height: 150%;
+    align-self: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+
+.btn2{
+    font-family: monospace;
+    border: solid 3px #e6005a;
+    border-radius: 12px;
+    font-weight: 1000;
+    font-size: 18px;
+    padding: 0;
+    color: #e6005a;
+    background-color: white;
+    width: 120px;
+    align-self: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 150%;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: #e6005a;
+}
+
+.bannerlog .card{
+    background-color: #e5e5e5;
+    height: 70%;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e6005a;
+    border: solid #32b9cd 5px;
+    border-radius: 5%;
+}
+
+.banner .card{
+    background-color: #e5e5e5;
+    height: 70%;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #e6005a;
+    border: solid #32b9cd 5px;
+    border-radius: 5%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    height: 10%;
+    background-color: #32b9cd;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
+
+.bannerlog .b{
+    width: 30px;
+    height: 30px;
+    background-color: #32b9cd;
+}
+
+.banner .b{
+    width: 30px;
+    height: 30px;
+    background-color: #32b9cd;
+}
+
+.bannerlog #button{
+    width: 90%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.banner #button{
+    width: 90%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.bannerlog #button2{
+    width: 92%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+
+.banner #button2{
+    width: 92%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+#h1_a{
+    text-decoration: none;
+    color: #32b9cd;
+    font-weight: bold;
+}
+
+.header a{
+    text-decoration: none;
+    color: #E3b062;
+}
+
+.social{
+    background-color: white;
+    display: flex;
+} 
+
+.social .container .boxes .box img{
+    margin-bottom: 21.28px;
+    width: 100px;
+}
+
+.social .container .boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.social .container .boxes .box h4{
+    display: flex;
+    text-align: center;
+}
+
+.box h4{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    color: #32b9cd;
+}
+
+.social_dev{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    display: flex;
+}
+
+.social_dev .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    flex-wrap: wrap;
+}
+
+.social_dev .box img{
+    padding: 20px;
+    width: 200px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.social_dev .box{
+    margin: 20px;
+}
+
+.contato #btn{
+    font-family: monospace;
+    border: 1px;
+    border-radius: 12px;
+    font-weight: 1000;
+    font-size: 15px;
+    color: white;
+    background-color: #e6005a;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
